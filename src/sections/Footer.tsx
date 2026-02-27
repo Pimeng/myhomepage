@@ -32,6 +32,11 @@ export function Footer() {
             Made with <Heart className="w-3 h-3 text-red-400 fill-red-400" /> using React & Tailwind CSS
           </p>
 
+          {/* 备案信息 */}
+          <p className="text-white/30 text-xs flex items-center justify-center gap-1">
+            <a href="https://beian.miit.gov.cn">粤ICP备2025410684号</a>
+          </p>
+
           {/* 技术标签 */}
           <div className="flex flex-wrap justify-center gap-2 mt-6">
             {['React', 'TypeScript', 'Tailwind CSS', 'Vite'].map((tech) => (
