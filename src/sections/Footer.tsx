@@ -34,7 +34,10 @@ export function Footer() {
 
           {/* 备案信息 */}
           <p className="text-white/30 text-xs flex items-center justify-center gap-1">
-            <a href="https://beian.miit.gov.cn">粤ICP备2025410684号</a>
+            <a href="https://beian.miit.gov.cn">粤ICP备2025410684号-2</a><br />
+          </p>
+          <p className="text-white/30 text-xs flex items-center justify-center gap-1">
+            <img src="/beian.png" alt="备案编号图标" className='w-3 h-3' /><a href="https://beian.mps.gov.cn/#/query/webSearch?code=44538102000130" rel="noreferrer" target="_blank">粤公网安备44538102000130号</a>
           </p>
 
           {/* 技术标签 */}
